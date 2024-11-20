@@ -1,0 +1,34 @@
+Prompt: Analyze this MTRS regulatory text, identify, and summarize the data required for reporting, define data elements. Give me a simple list with one line definition, make sure to include the all data elements for debt securities
+
+ChatGPT 4o Response:
+Debt Securities Data Elements
+1.	Security Identifier: Unique identifier (ISIN or CUSIP) of the security.
+2.	Security Identifier Type: Type of identifier used (1 = CUSIP, 2 = ISIN).
+3.	Trade ID: Unique identifier for the transaction.
+4.	Original Trade ID: Identifier for original trade (used in cancellations or corrections).
+5.	Transaction Type: Type of transaction (0 = New, 1 = Cancel, 2 = Correction).
+6.	Execution Date: Date the transaction was executed (YYYYMMDD).
+7.	Execution Time: Time the transaction was executed (HH:MM in EST).
+8.	Settlement Date: Date the transaction is set to settle.
+9.	Trader ID: Identifier of the trader or desk responsible for the transaction.
+10.	Reporting Dealer ID: Legal Entity Identifier (LEI) of the reporting party.
+11.	Counterparty Type: Type of counterparty (e.g., Dealer, Client).
+12.	Counterparty ID: LEI or other identifier of the counterparty, if applicable.
+13.	Customer Account Type: Indicates whether the client is retail or institutional.
+14.	Customer LEI: Legal Entity Identifier of the institutional customer.
+15.	Customer Account Identifier: Identifier for the customer account (if no LEI).
+16.	Introducing/Carrying Dealer Indicator: Specifies whether the dealer is introducing or carrying.
+17.	Electronic Execution Indicator: Indicates whether the transaction was executed electronically.
+18.	Trading Venue Identifier: LEI or name of the trading venue.
+19.	Side: Buy (1) or Sell (2) from the counterparty's perspective.
+20.	Quantity: Par value of the securities traded.
+21.	Price: Clean price (excluding accrued interest).
+22.	Benchmark Security Identifier: Identifier for the bond used as a benchmark, if any.
+23.	Benchmark Security Identifier Type: Type of identifier for the benchmark (1 = CUSIP, 2 = ISIN).
+24.	Yield: Yield on the transaction, as stated on the client confirmation.
+25.	Commission: Commission or mark-up/down on the trade.
+26.	Capacity: Specifies whether the reporting entity acted as Principal or Agent.
+27.	Primary Market Indicator: Indicates if the transaction is part of a new issue.
+28.	Related Party Indicator: Indicates whether the counterparty is affiliated with the reporting entity.
+29.	Non-resident Indicator: Marks if the counterparty is considered non-resident.
+30.	Fee-based Account Indicator: Indicates if the account is fee-based rather than commission-based.
