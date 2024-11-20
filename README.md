@@ -7,7 +7,8 @@ MTRS Debt Securities Transaction Reporting - https://www.iiroc.ca/media/12126/do
 
 Steps - for a given financial regulation
 
-a) Analyze the original regulatory text, identify, and summarize the data required for reporting, define data elements. 
+a) Analyze the original regulatory text, identify, and summarize the data required for reporting, define data elements 
+   Prompt: Analyze this MTRS regulatory text, identify, and summarize the data required for reporting, define data elements. Give me a simple list with one line definition, make sure to include the all data elements for debt securities
 
 b) Given a trade dataset in a bank, come up with a data dictionary – standardized names (possibly aligning to standard such as ISDA CDM or FpML) and definition. 
 
