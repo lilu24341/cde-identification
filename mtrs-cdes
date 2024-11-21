@@ -32,3 +32,17 @@ Debt Securities Data Elements
 28.	Related Party Indicator: Indicates whether the counterparty is affiliated with the reporting entity.
 29.	Non-resident Indicator: Marks if the counterparty is considered non-resident.
 30.	Fee-based Account Indicator: Indicates if the account is fee-based rather than commission-based.
+
+Repo Transaction-Specific Data Elements
+1. Repo Agreement ID: Unique identifier for the repo transaction.
+2. Original Repo ID: Original identifier for cancellations or corrections.
+3. Repo Type: Type of repo transaction (e.g., repo, reverse repo).
+4. Repo Term: Specifies if the repo is fixed-term, open-term, evergreen, or extendable.
+5. Repo Maturity Date: Maturity date of the repo (if applicable).
+6. Repo Settlement Date: Date of initial settlement for the repo.
+7. Repo Collateral Security ID: Identifier of collateral used in the repo (if applicable).
+8. Repo Collateral Security Type: Type of collateral used (CUSIP, ISIN, etc.).
+9. Repo Currency: Currency of the repo transaction.
+10. Repo Rate: Interest rate or spread applicable to the repo.
+11. Repo Haircut: Percentage haircut applied to the collateral value.
+12. Tri-Party Repo: Indicates if the transaction is a tri-party repo (Y/N).
