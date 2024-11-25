@@ -32,3 +32,38 @@ Debt Securities Data Elements
 28.	Related Party Indicator: Indicates whether the counterparty is affiliated with the reporting entity.
 29.	Non-resident Indicator: Marks if the counterparty is considered non-resident.
 30.	Fee-based Account Indicator: Indicates if the account is fee-based rather than commission-based.
+
+
+
+Here is the full list of data elements extracted from the document, along with a one-line definition for each:
+
+Repo Transactions Data Elements
+REPO_AGREEMENT_ID: Unique identifier assigned to the repo transaction.
+ORIG_REPO_ID: Identifier for the original repo transaction, used for updates or corrections.
+TRANS_TYPE: Indicates whether the repo is new, canceled, corrected, updated, or failed.
+AGREEMENT_DATE: The calendar date when the repo agreement was executed.
+AGREEMENT_TIME: The exact time the repo agreement was executed.
+CLEARING_HOUSE: LEI of the central clearing house if the repo is centrally cleared.
+TRADER_ID: Identifier for the trader or desk responsible for the repo transaction.
+REPO_TYPE: Specifies the type of repo (e.g., repo, reverse repo, sell/buyback).
+REPO_TERM: Indicates whether the repo is fixed-term, open-term, evergreen, or extendable.
+REPO_MAT_DATE: Maturity date of the repo agreement if it has a fixed term.
+SETTLEMENT_DATE: Settlement date for the initial leg of the repo transaction.
+REPORTING_DEALER_ID: LEI of the reporting entity responsible for the repo transaction.
+COUNTERPARTY_TYPE: Specifies the type of counterparty (e.g., dealer, client, bank).
+COUNTERPARTY_ID: Identifier for the counterparty, typically an LEI.
+CUSTOMER_ACC_TYPE: Indicates whether the counterparty is a retail or institutional customer.
+CUSTOMER_LEI: Legal Entity Identifier of the institutional customer.
+CUSTOMER_ACCOUNT_ID: Identifier for the retail customer's account.
+ELECTRONIC_EXECUTION: Marker for whether the repo transaction was executed electronically.
+TRADING_VENUE_ID: Identifier of the trading venue where the repo transaction occurred.
+QUANTITY: The par value of the collateral in the repo agreement.
+PRICE: Price of the initial purchase of the collateral, excluding accrued interest.
+REPO_CURRENCY: Currency used in the cash payment for the repo transaction.
+REPO_RATE: Interest rate agreed for the repo, expressed explicitly (e.g., "0.27%").
+REPO_HAIRCUT: Haircut applied to the repo collateral, expressed as a percentage.
+REPO_CSI_TYPE: Specifies the type of collateral security (e.g., ISIN, CUSIP, GC).
+REPO_CSI_ID: Identifier for the security used as repo collateral, if applicable.
+RELATED_PTY: Marker for whether the counterparty is related to the reporting entity.
+NON_RESIDENT: Marker for whether the counterparty is a non-resident.
+TRI-PARTY_REPO: Indicates whether the transaction is a tri-party repo.
