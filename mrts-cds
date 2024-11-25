@@ -5,22 +5,22 @@ Debt Transactions Data Elements
 1.SECURITY_ID: Unique identifier for the security, such as ISIN or CUSIP.
 2.SECURITY_ID_TYPE: Specifies whether the identifier is an ISIN or CUSIP.
 3.TRADE_ID: Unique identifier assigned to the transaction by the reporting entity.
-ORIG_TRADE_ID: Identifier for the original trade, used for cancelations or corrections.
-TRANS_TYPE: Indicates whether the transaction is new, a cancelation, or a correction.
-EXECUTION_DATE: The calendar date when the transaction was executed.
-EXECUTION_TIME: The exact time the transaction was executed (reported in EST).
-SETTLEMENT_DATE: The date the transaction is scheduled to settle.
-TRADER_ID: Identifier for the trader or desk responsible for the trade.
-REPORTING_DEALER_ID: Legal Entity Identifier (LEI) of the reporting entity.
-COUNTERPARTY_TYPE: Specifies the type of counterparty (e.g., client, non-client, dealer).
-COUNTERPARTY_ID: Identifier for the counterparty, typically an LEI.
-CUSTOMER_ACC_TYPE: Indicates whether the counterparty is a retail or institutional customer.
-CUSTOMER_LEI: Legal Entity Identifier of the institutional customer or client.
-CUSTOMER_ACCOUNT_ID: Identifier for the retail customer's account.
-INTROD_CARRY: Indicates whether the reporting entity acted as an introducing or carrying broker.
-ELECTRONIC_EXECUTION: Marker for whether the transaction was executed electronically.
-TRADING_VENUE_ID: Identifier of the trading venue where the transaction occurred.
-SIDE: Specifies whether the transaction was a buy (1) or a sell (2).
+4.ORIG_TRADE_ID: Identifier for the original trade, used for cancelations or corrections.
+5.TRANS_TYPE: Indicates whether the transaction is new, a cancelation, or a correction.
+6.EXECUTION_DATE: The calendar date when the transaction was executed.
+7.EXECUTION_TIME: The exact time the transaction was executed (reported in EST).
+8.SETTLEMENT_DATE: The date the transaction is scheduled to settle.
+9.TRADER_ID: Identifier for the trader or desk responsible for the trade.
+10.REPORTING_DEALER_ID: Legal Entity Identifier (LEI) of the reporting entity.
+11.COUNTERPARTY_TYPE: Specifies the type of counterparty (e.g., client, non-client, dealer).
+12.COUNTERPARTY_ID: Identifier for the counterparty, typically an LEI.
+13CUSTOMER_ACC_TYPE: Indicates whether the counterparty is a retail or institutional customer.
+14.CUSTOMER_LEI: Legal Entity Identifier of the institutional customer or client.
+15.CUSTOMER_ACCOUNT_ID: Identifier for the retail customer's account.
+16.INTROD_CARRY: Indicates whether the reporting entity acted as an introducing or carrying broker.
+17.ELECTRONIC_EXECUTION: Marker for whether the transaction was executed electronically.
+18.TRADING_VENUE_ID: Identifier of the trading venue where the transaction occurred.
+19.SIDE: Specifies whether the transaction was a buy (1) or a sell (2).
 QUANTITY: The quantity of securities traded, measured in par value.
 PRICE: The transaction price, including any mark-ups or mark-downs.
 BENCHMARK_SEC_ID: Identifier for the security used as a pricing benchmark, if applicable.
