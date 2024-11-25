@@ -2,9 +2,9 @@
 Here is the full list of data elements extracted from the document, along with a one-line definition for each:
 
 Debt Transactions Data Elements
-SECURITY_ID: Unique identifier for the security, such as ISIN or CUSIP.
-SECURITY_ID_TYPE: Specifies whether the identifier is an ISIN or CUSIP.
-TRADE_ID: Unique identifier assigned to the transaction by the reporting entity.
+1.SECURITY_ID: Unique identifier for the security, such as ISIN or CUSIP.
+2.SECURITY_ID_TYPE: Specifies whether the identifier is an ISIN or CUSIP.
+3.TRADE_ID: Unique identifier assigned to the transaction by the reporting entity.
 ORIG_TRADE_ID: Identifier for the original trade, used for cancelations or corrections.
 TRANS_TYPE: Indicates whether the transaction is new, a cancelation, or a correction.
 EXECUTION_DATE: The calendar date when the transaction was executed.
