@@ -21,23 +21,24 @@ Debt Transactions Data Elements
 17.ELECTRONIC_EXECUTION: Marker for whether the transaction was executed electronically.
 18.TRADING_VENUE_ID: Identifier of the trading venue where the transaction occurred.
 19.SIDE: Specifies whether the transaction was a buy (1) or a sell (2).
-QUANTITY: The quantity of securities traded, measured in par value.
-PRICE: The transaction price, including any mark-ups or mark-downs.
-BENCHMARK_SEC_ID: Identifier for the security used as a pricing benchmark, if applicable.
-BENCHMARK_SEC_ID_TYPE: Specifies whether the benchmark security ID is an ISIN or CUSIP.
-YIELD: The yield on the security as stated on the client confirmation.
-COMMISSION: Commission or markup charged for the transaction.
-CAPACITY: Indicates whether the reporting entity acted as principal or agent.
-PRIMARY_MARKET: Marker for transactions executed in the primary market.
-RELATED_PTY: Indicates if the counterparty is related to the reporting entity.
-NON_RESIDENT: Marker for whether the counterparty is a non-resident.
-FEE_BASED_ACCOUNT: Indicates whether the transaction is linked to a fee-based account.
+20.QUANTITY: The quantity of securities traded, measured in par value.
+21.PRICE: The transaction price, including any mark-ups or mark-downs.
+22.BENCHMARK_SEC_ID: Identifier for the security used as a pricing benchmark, if applicable.
+23.BENCHMARK_SEC_ID_TYPE: Specifies whether the benchmark security ID is an ISIN or CUSIP.
+24.YIELD: The yield on the security as stated on the client confirmation.
+25.COMMISSION: Commission or markup charged for the transaction.
+26.CAPACITY: Indicates whether the reporting entity acted as principal or agent.
+27.PRIMARY_MARKET: Marker for transactions executed in the primary market.
+28.RELATED_PTY: Indicates if the counterparty is related to the reporting entity.
+29.NON_RESIDENT: Marker for whether the counterparty is a non-resident.
+30.FEE_BASED_ACCOUNT: Indicates whether the transaction is linked to a fee-based account.
+
 Repo Transactions Data Elements
-REPO_AGREEMENT_ID: Unique identifier assigned to the repo transaction.
-ORIG_REPO_ID: Identifier for the original repo transaction, used for updates or corrections.
-TRANS_TYPE: Indicates whether the repo is new, canceled, corrected, updated, or failed.
-AGREEMENT_DATE: The calendar date when the repo agreement was executed.
-AGREEMENT_TIME: The exact time the repo agreement was executed.
+1.REPO_AGREEMENT_ID: Unique identifier assigned to the repo transaction.
+2.ORIG_REPO_ID: Identifier for the original repo transaction, used for updates or corrections.
+3.TRANS_TYPE: Indicates whether the repo is new, canceled, corrected, updated, or failed.
+4.AGREEMENT_DATE: The calendar date when the repo agreement was executed.
+5.AGREEMENT_TIME: The exact time the repo agreement was executed.
 CLEARING_HOUSE: LEI of the central clearing house if the repo is centrally cleared.
 TRADER_ID: Identifier for the trader or desk responsible for the repo transaction.
 REPO_TYPE: Specifies the type of repo (e.g., repo, reverse repo, sell/buyback).
